@@ -57,5 +57,3 @@ if st.button("Analyze Location"):
     st.subheader("Analysis Report")
     for key, value in result.items():
         st.write(f"**{key}:** {value}")
-
-initial commit
